@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    max-width: 100vw;
+    height: 26px;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 239);
+    color: #fff;
+}
+header span{
+    border-top: 2px solid #fff;
+    width: 1.5em;
+    margin: 5px 5px 0 0;
+    
+}
+.menu-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-pesquisar{
+    max-width: 100vw;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=search]{
+    width: 80%;
+
+    background-image: url(../clinica-web-site/icone/search.svg);
+    background-position: 97%;
+    background-repeat: no-repeat;
+    background-size: 12px;
+
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+input[type=search]:focus-visible{
+    outline: none;
+}
+
