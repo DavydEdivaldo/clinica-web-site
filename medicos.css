@@ -49,4 +49,14 @@ input[type=search]:focus-visible{
     outline: none;
 }
 
+.text_none{
+    text-decoration: none;
+    color: black;
+}
+.text_none > p{
+    font-size: 13px;
+}
 
+.alinhamento_div_med{
+    margin-top: 3em;
+}
